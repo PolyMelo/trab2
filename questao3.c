@@ -7,16 +7,13 @@ int main() {
         for (int j = 0; j < 4; j++) {
             scanf("%d", &A[i][j]);
         }
-    }
-    printf("\n");    
+    }  
     for (int i = 0; i < 4; i++) {
         for (int j = 0; j < 4; j++) {
             scanf("%d", &B[i][j]);
         }
     }
-    printf("\n"); 
     scanf("%s", operacao);
-    printf("\n");
     if (strncmp(operacao, "soma", 4) == 0) {
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 4; j++) {
@@ -41,7 +38,7 @@ int main() {
     }
     for (int i = 0; i < 4; i++) {
         for (int j = 0; j < 4; j++) {
-            printf("%4d ", C[i][j]);
+            printf("%4d", C[i][j]);
         }
         printf("\n");
     }
