@@ -50,16 +50,16 @@ main() {
     }
     
     
-    printf("Time 1 - %s: %.2f\n", nome_time1, forca_time1 / 100);
-    printf("Time 2 - %s: %.2f\n", nome_time2, forca_time2 / 100);
+    printf("%s: %.2f de forca\n", nome_time1, forca_time1 / 100);
+    printf("%s: %.2f de forca\n", nome_time2, forca_time2 / 100);
     
     
     if (forca_time1 > forca_time2) {
-        printf("Time 1 é o mais forte\n");
+        printf("%s eh mais forte\n", nome_time1);
     } else if (forca_time2 > forca_time1) {
-        printf("Time 2 é o mais forte\n");
+        printf("%s eh mais forte\n", nome_time2);
     } else {
-        printf("Os times têm a mesma força\n");
+        printf("Os times tem a mesma forca\n");
     }
     
     return 0;
